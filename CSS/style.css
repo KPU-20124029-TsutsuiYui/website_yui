@@ -120,3 +120,41 @@ img:hover{
    margin-left: 210px;
    padding: 20px;
 }
+
+@media screen and (max-width:768px){
+   .contact-us{
+      width: 350px;
+      background: lightsteelblue;
+      padding: 25px;
+      margin: 50px auto;
+      border-radius: 30px;
+      position: relative;
+   }
+
+   .social-icon{
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-40%);
+      width: 250px;
+      display: flex;
+   }
+   
+   .social-icon div{
+      width: 40px;
+      height: 40px;
+      border-radius: 40%;
+      position: relative;
+      cursor: pointer;
+      margin-right: 8px
+   }
+   
+   .social-icon div a{
+      position: absolute;
+      top: 40%;
+      left: 40%;
+      transform: translate(-40%, -40%);
+      color: lightcyan;
+      font-size: 7px;
+   }
+}
