@@ -123,7 +123,7 @@ img:hover{
 
 @media screen and (max-width:768px){
    .contact-us{
-      width: 350px;
+      width: 340px;
       background: lightsteelblue;
       padding: 25px;
       margin: 50px auto;
@@ -133,10 +133,10 @@ img:hover{
 
    .social-icon{
       position: absolute;
-      top: -20px;
+      top: -40px;
       left: 50%;
       transform: translateX(-40%);
-      width: 250px;
+      width: 400px;
       display: flex;
    }
    
@@ -146,7 +146,7 @@ img:hover{
       border-radius: 40%;
       position: relative;
       cursor: pointer;
-      margin-right: 8px
+      margin-right: 15px
    }
    
    .social-icon div a{
@@ -155,6 +155,5 @@ img:hover{
       left: 40%;
       transform: translate(-40%, -40%);
       color: lightcyan;
-      font-size: 7px;
+      font-size: 10px;
    }
-}
