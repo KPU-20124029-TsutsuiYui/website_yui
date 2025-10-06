@@ -150,7 +150,7 @@ img:hover{
    .social-icon div a{
       position: absolute;
       top: 40%;
-      left: 40%;
+      left: 50%;
       transform: translate(-40%, -40%);
       color: lightcyan;
       font-size: 9px;
