@@ -123,13 +123,14 @@ img:hover{
 
 @media screen and (max-width:768px){
    .contact-us{
-      width: 325px;
+      width: 350px;
       background: lightsteelblue;
       padding: 25px;
       margin: 50px auto;
       border-radius: 30px;
       position: relative;
    }
+
    .social-icon{
       position: absolute;
       top: -20px;
@@ -152,12 +153,16 @@ img:hover{
       left: 40%;
       transform: translate(-40%, -40%);
       color: lightcyan;
-      font-size: 8px;
+      font-size: 7px;
    }
+
    .sidebar{
       display: none;
    }
    .sidebar a{
       display: none;
    }
+   .sidebar a:hover{
+      display: none;
+}
 }
