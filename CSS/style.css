@@ -126,11 +126,18 @@ img:hover{
    overflow-x: auto;
    -webkit-overflow-scrolling: touch;
 }
-
 .table-container table{
    width: 100%;
    border-collapse: collapse;
    min-width: 700px;
+}
+.table-container::before {
+   content: "← スクロールできます →";
+   display: block;
+   text-align: center;
+   font-size: 12px;
+   color: gray;
+   margin-top: 5px;
 }
 
 @media screen and (max-width:768px){
