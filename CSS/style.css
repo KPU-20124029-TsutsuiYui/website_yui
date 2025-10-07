@@ -164,7 +164,7 @@ img:hover{
       left: 45%;
       transform: translate(-40%, -40%);
       color: lightcyan;
-      font-size: clamp(7px, 2vw, 10px);
+      font-size: clamp(9px, 2vw, 11px);
    }
 
    .sidebar{
