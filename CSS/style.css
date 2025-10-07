@@ -132,16 +132,6 @@ img:hover{
    min-width: 700px;
 }
 
-form {
-   max-width: 300px;
-   margin: auto;
-}
-
-input[type="text"] {
-   width: 100%;
-   box-sizing: border-box;
-}
-
 @media screen and (max-width:768px){
    .contact-us{
       width: 350px;
