@@ -40,7 +40,7 @@ h3{
    left: 50%;
    transform: translate(-50%, -50%);
    color: lightcyan;
-   font-size: 13px;
+   font-size: clamp(14px, 2.5vw, 18px);
 }
 .social-icon div.home{
    background: limegreen;
@@ -164,7 +164,7 @@ img:hover{
       left: 45%;
       transform: translate(-40%, -40%);
       color: lightcyan;
-      font-size: 8px;
+      font-size: clamp(14px, 2.5vw, 18px);
    }
 
    .sidebar{
