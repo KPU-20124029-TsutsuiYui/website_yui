@@ -121,6 +121,18 @@ img:hover{
    padding: 20px;
 }
 
+.table-container{
+   width: 100%;
+   overflow-x: auto;
+   -webkit-overflow-scrolling: touch;
+}
+
+.table-container table{
+   width: 100%;
+   border-collapse: collapse;
+   min-width: 700px;
+}
+
 @media screen and (max-width:768px){
    .contact-us{
       width: 350px;
@@ -171,8 +183,16 @@ img:hover{
       height: auto;
    }
 
-   table{
-      width: 100%;
-      max-width: none;
+   .table-container{
+      overflow-x: auto;
+      display: block;
+   }
+   table {
+      font-size: 12px;
+      min-width: 600px;
+   }
+   td img {
+      width: 70px;
+      height: auto;
    }
 }
